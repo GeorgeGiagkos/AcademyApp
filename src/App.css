@@ -1,38 +1,130 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 .App {
-  text-align: center;
+	text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+	height: 40vmin;
+	pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+	.App-logo {
+		animation: App-logo-spin infinite 20s linear;
+	}
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
 }
 
 .App-link {
-  color: #61dafb;
+	color: #61dafb;
 }
 
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+p {
+	color: red;
+}
+
+.container {
+	margin-top: 2rem;
+}
+
+.list-group-item {
+	cursor: pointer;
+	border: none;
+}
+
+.list-group-item.active {
+	background-color: rgb(44, 47, 49) !important;
+	border-color: rgb(115, 106, 94) !important;
+}
+
+.page-link {
+	color: white !important;
+	cursor: pointer;
+}
+.page-item.active .page-link {
+	background-color: rgb(44, 47, 49) !important;
+	border-color: rgb(115, 106, 94) !important;
+}
+
+.info {
+	margin-top: 3%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.info-paragraph {
+	color: white;
+}
+
+.register {
+	list-style: none;
+}
+
+.register button {
+	margin-top: 1em;
+	align-items: center;
+	appearance: none;
+	background-color: #3eb2fd;
+	background-image: linear-gradient(1deg, #4f58fd, #149bf3 99%);
+	background-size: calc(100% + 20px) calc(100% + 20px);
+	border-radius: 100px;
+	border-width: 0;
+	box-shadow: none;
+	box-sizing: border-box;
+	color: #ffffff;
+	cursor: pointer;
+	display: inline-flex;
+	font-family: CircularStd, sans-serif;
+	font-size: 1rem;
+	height: auto;
+	justify-content: center;
+	line-height: 1.5;
+	padding: 6px 20px;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	transition: background-color 0.2s, background-position 0.2s;
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+	vertical-align: top;
+	white-space: nowrap;
+}
+
+.register button:active,
+.register button:focus {
+	outline: none;
+}
+
+.register button:hover {
+	background-position: -20px -20px;
+}
+
+.register button:focus:not(:active) {
+	box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 0.125em;
 }
