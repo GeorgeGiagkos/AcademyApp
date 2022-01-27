@@ -33,7 +33,7 @@
 
 ---
 
-![react-ts6](https://user-images.githubusercontent.com/97463548/151427697-467c35ec-480a-48e7-8dcd-912f13496da2.png)
+![react-ts8](https://user-images.githubusercontent.com/97463548/151427699-41044861-b77a-4a31-8cc0-e822ac430e56.png)
 
 ---
 
@@ -41,4 +41,5 @@
 
 ---
 
-![react-ts8](https://user-images.githubusercontent.com/97463548/151427699-41044861-b77a-4a31-8cc0-e822ac430e56.png)
+
+![react-ts6](https://user-images.githubusercontent.com/97463548/151427697-467c35ec-480a-48e7-8dcd-912f13496da2.png)
